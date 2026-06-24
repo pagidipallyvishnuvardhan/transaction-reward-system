@@ -121,7 +121,8 @@ uvicorn main:app --reload
 
 Backend URL:
 
-http://127.0.0.1:8000
+Backend URL:
+https://transaction-reward-system.onrender.com
 
 ---
 
