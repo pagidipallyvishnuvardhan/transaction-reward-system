@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transaction Reward System</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <div class="header">
+        <h1>🏆 Transaction Reward System</h1>
+        <p>Track Transactions • Earn Rewards • View Rankings</p>
+    </div>
+
+    <!-- Transaction Section -->
+    <div class="card">
+
+        <h2>➕ Add Transaction</h2>
+
+        <input type="text" id="userId" placeholder="Enter User ID">
+
+        <input type="number" id="amount" placeholder="Enter Amount">
+
+        <input type="text" id="transactionId" placeholder="Enter Transaction ID">
+
+        <button type="button" onclick="addTransaction()">
+            Submit Transaction
+        </button>
+
+        <p id="transactionResult"></p>
+
+    </div>
+
+    <!-- User Summary -->
+    <div class="card">
+
+        <h2>👤 User Summary</h2>
+
+        <input type="text" id="summaryUserId" placeholder="Enter User ID">
+
+        <button type="button" onclick="getSummary()">
+            Get Summary
+        </button>
+
+        <div id="summaryResult"></div>
+
+    </div>
+
+    <!-- Leaderboard -->
+    <div class="card">
+
+        <h2>🏅 Leaderboard</h2>
+
+        <button type="button" onclick="getRanking()">
+            Load Rankings
+        </button>
+
+        <div id="rankingResult"></div>
+
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        © 2026 Transaction Reward System | Built with FastAPI & SQLite
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
