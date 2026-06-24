@@ -12,6 +12,23 @@ The application allows users to:
 * Prevent duplicate transaction processing
 
 ---
+## Live Deployment
+
+### GitHub Repository
+
+https://github.com/pagidipallyvishnuvardhan/transaction-reward-system
+
+### Backend API
+
+https://transaction-reward-system.onrender.com
+
+### API Documentation
+
+https://transaction-reward-system.onrender.com/docs
+
+### Frontend
+
+https://pagidipallyvishnuvardhan.github.io/transaction-reward-system/
 
 ## Technology Stack
 
@@ -124,9 +141,17 @@ Backend URL:
 Backend URL:
 https://transaction-reward-system.onrender.com
 
----
+API Documentation:
+https://transaction-reward-system.onrender.com/docs
+
 
 ### Frontend
+
+Live Frontend:
+
+https://pagidipallyvishnuvardhan.github.io/transaction-reward-system/
+
+Local Development:
 
 Open:
 
@@ -143,4 +168,4 @@ https://pagidipallyvishnuvardhan.github.io/transaction-reward-system/
 * User authentication
 * Advanced ranking algorithms
 * Transaction history dashboard
-* Deployment using Render and Vercel
+* Export reports as CSV/PDF
